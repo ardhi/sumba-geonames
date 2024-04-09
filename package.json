@@ -1,0 +1,22 @@
+{
+  "name": "sumba-geonames",
+  "version": "0.2.1",
+  "description": "Geonames database for Bajo Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/sumba-geonames.git"
+  },
+  "keywords": [
+    "sumba",
+    "bajo",
+    "framework",
+    "geonames"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT"
+}

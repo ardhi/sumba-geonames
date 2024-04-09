@@ -1,0 +1,7 @@
+{
+  "properties": [
+    "code::20:unique:true",
+    "class::20:true:true",
+    "name::255:true:true"
+  ]
+}
