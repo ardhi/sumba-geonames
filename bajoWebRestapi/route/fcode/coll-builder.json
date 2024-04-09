@@ -1,0 +1,4 @@
+{
+  "coll": "GeonamesFcode",
+  "disabled": ["create", "update", "remove"]
+}
