@@ -1,6 +1,6 @@
 {
   "properties": [
-    "id:integer::primary",
+    "geonamesId:integer::true:true",
     "name::255:fulltext:true",
     "asciiName::255:fulltext:true",
     "fClass::20:true",
@@ -15,6 +15,7 @@
     "pop:integer::true",
     "elev:integer::true",
     "dem:integer::true",
+    "tz::50:true",
     "modDate:date:true"
   ]
 }
