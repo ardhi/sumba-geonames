@@ -23,11 +23,10 @@ function makeProgress (state) {
 }
 
 async function importGeonames ({ path, args }) {
-  const { print, importPkg, startPlugin } = this.bajo.helper
+  const { fs, print, importPkg, startPlugin } = this.bajo.helper
   const { importFrom, countFileLines, formatInteger } = this.bajoExtra.helper
   if (!this.bajoDb) print.fatal('Bajo DB isn\'t loaded')
   const { getInfo } = this.bajoDb.helper
-  const fs = await importPkg('fs-extra')
   const confirm = await importPkg('bajoCli:@inquirer/confirm')
   const fname = args[0]
 
@@ -38,7 +37,7 @@ async function importGeonames ({ path, args }) {
     default: false
   })
   if (!answer) print.fatal('Aborted!')
-  const { connection } = await getInfo(coll)
+  const { connection } = getInfo(coll)
   await startPlugin('bajoDb', connection.name)
   const lines = await countFileLines(fname)
   print.info('Importing %s lines...', formatInteger(lines))
@@ -46,7 +45,8 @@ async function importGeonames ({ path, args }) {
   const opts = { batch: 1, progressFn, fileType: 'csv', converterFn, useHeader: headers }
   opts.createOpts = { noCheckUnique: true, noValidation: true, noHook: true, noFeatureHook: true, noResult: true, noSanitize: true }
   const result = await importFrom(fname, coll, opts, { delimiter: '\t' })
-  print.succeed('\n%s records successfully imported from \'%s\'', formatInteger(result.count), fname)
+  process.stdout.write('\n')
+  print.succeed('%s records successfully imported from \'%s\'', formatInteger(result.count), fname)
 }
 
 export default importGeonames
