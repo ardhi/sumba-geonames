@@ -7,8 +7,8 @@ async function converterFn (rec) {
 
 const headers = ['geonamesId', 'name', 'reason']
 
-async function applyDeletions ({ path, args }) {
+async function applyDeletes ({ path, args }) {
   await maintenance.call(this, { type: 'deletes', headers, converterFn, date: args[0] })
 }
 
-export default applyDeletions
+export default applyDeletes
