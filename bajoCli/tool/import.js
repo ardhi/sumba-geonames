@@ -8,8 +8,8 @@ let counter = 1
 let lastTime
 
 function makeProgress (state) {
-  const { secToHms } = this.bajo.helper
-  const { formatInteger } = this.bajoExtra.helper
+  const { secToHms } = this.app.bajo
+  const { formatInteger } = this.app.bajoExtra
   return async function ({ batchNo, data, batchStart } = {}) {
     if (!lastTime) lastTime = Date.now()
     if (counter % smallStop === 0) {
@@ -23,10 +23,10 @@ function makeProgress (state) {
 }
 
 async function importGeonames ({ path, args }) {
-  const { fs, print, importPkg, startPlugin } = this.bajo.helper
-  const { importFrom, countFileLines, formatInteger } = this.bajoExtra.helper
-  if (!this.bajoDb) print.fatal('Bajo DB isn\'t loaded')
-  const { getInfo } = this.bajoDb.helper
+  const { fs, print, importPkg, startPlugin } = this.app.bajo
+  const { importFrom, countFileLines, formatInteger } = this.app.bajoExtra
+  if (!this.app.dobo) print.fatal('Bajo DB isn\'t loaded')
+  const { getInfo } = this.app.dobo
   const confirm = await importPkg('bajoCli:@inquirer/confirm')
   const fname = args[0]
 
@@ -38,7 +38,7 @@ async function importGeonames ({ path, args }) {
   })
   if (!answer) print.fatal('Aborted!')
   const { connection } = getInfo(coll)
-  await startPlugin('bajoDb', connection.name)
+  await startPlugin('dobo', connection.name)
   const lines = await countFileLines(fname)
   print.info('Importing %s lines...', formatInteger(lines))
   const progressFn = makeProgress.call(this)
