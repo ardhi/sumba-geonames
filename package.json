@@ -1,6 +1,6 @@
 {
   "name": "sumba-geonames",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Geonames database for Bajo Framework",
   "main": "index.js",
   "scripts": {
