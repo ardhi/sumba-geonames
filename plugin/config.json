@@ -1,4 +1,0 @@
-{
-  "alias": "geonames",
-  "dependencies": ["bajo-db"]
-}
