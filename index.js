@@ -1,15 +1,18 @@
 async function factory (pkgName) {
   const me = this
 
-  return class SumbaGeonames extends this.lib.Plugin {
+  class SumbaGeonames extends this.lib.Plugin {
+    static alias = 'geonames'
+    static dependencies = ['dobo']
+
     constructor () {
       super(pkgName, me.app)
-      this.alias = 'geonames'
-      this.dependencies = ['dobo']
       this.config = {
       }
     }
   }
+
+  return SumbaGeonames
 }
 
 export default factory
