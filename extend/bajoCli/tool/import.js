@@ -8,7 +8,7 @@ let counter = 1
 let lastTime
 
 function makeProgress (state) {
-  const { secToHms } = this.lib.aneka
+  const { secToHms } = this.app.lib.aneka
   const { formatInteger } = this.app.bajoExtra
   return async function ({ batchNo, data, batchStart } = {}) {
     if (!lastTime) lastTime = Date.now()

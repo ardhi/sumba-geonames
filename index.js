@@ -1,7 +1,7 @@
 async function factory (pkgName) {
   const me = this
 
-  class SumbaGeonames extends this.lib.Plugin {
+  class SumbaGeonames extends this.app.pluginClass.base {
     static alias = 'geonames'
     static dependencies = ['dobo']
 
