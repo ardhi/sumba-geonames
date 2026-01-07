@@ -1,0 +1,4 @@
+{
+  "model": "GeonamesFcode",
+  "disabled": ["create", "update", "remove"]
+}

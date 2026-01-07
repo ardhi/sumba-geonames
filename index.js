@@ -12,7 +12,7 @@ async function factory (pkgName) {
    *
    * @class
    */
-  class SumbaGeonames extends this.app.pluginClass.base {
+  class SumbaGeonames extends this.app.baseClass.Base {
     static alias = 'geonames'
     static dependencies = ['dobo']
 

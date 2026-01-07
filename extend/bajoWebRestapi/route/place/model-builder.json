@@ -1,0 +1,4 @@
+{
+  "modem": "GeonamesPlace",
+  "disabled": ["create", "update", "remove"]
+}

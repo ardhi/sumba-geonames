@@ -1,0 +1,3407 @@
+[
+  {
+    "code": "ADM1",
+    "class": "A",
+    "name": "First-Order Administrative Division"
+  },
+  {
+    "code": "ADM1H",
+    "class": "A",
+    "name": "Historical First-Order Administrative Division"
+  },
+  {
+    "code": "ADM2",
+    "class": "A",
+    "name": "Second-Order Administrative Division"
+  },
+  {
+    "code": "ADM2H",
+    "class": "A",
+    "name": "Historical Second-Order Administrative Division"
+  },
+  {
+    "code": "ADM3",
+    "class": "A",
+    "name": "Third-Order Administrative Division"
+  },
+  {
+    "code": "ADM3H",
+    "class": "A",
+    "name": "Historical Third-Order Administrative Division"
+  },
+  {
+    "code": "ADM4",
+    "class": "A",
+    "name": "Fourth-Order Administrative Division"
+  },
+  {
+    "code": "ADM4H",
+    "class": "A",
+    "name": "Historical Fourth-Order Administrative Division"
+  },
+  {
+    "code": "ADM5",
+    "class": "A",
+    "name": "Fifth-Order Administrative Division"
+  },
+  {
+    "code": "ADM5H",
+    "class": "A",
+    "name": "Historical Fifth-Order Administrative Division"
+  },
+  {
+    "code": "ADMD",
+    "class": "A",
+    "name": "Administrative Division"
+  },
+  {
+    "code": "ADMDH",
+    "class": "A",
+    "name": "Historical Administrative Division"
+  },
+  {
+    "code": "LTER",
+    "class": "A",
+    "name": "Leased Area"
+  },
+  {
+    "code": "PCL",
+    "class": "A",
+    "name": "Political Entity"
+  },
+  {
+    "code": "PCLD",
+    "class": "A",
+    "name": "Dependent Political Entity"
+  },
+  {
+    "code": "PCLF",
+    "class": "A",
+    "name": "Freely Associated State"
+  },
+  {
+    "code": "PCLH",
+    "class": "A",
+    "name": "Historical Political Entity"
+  },
+  {
+    "code": "PCLI",
+    "class": "A",
+    "name": "Independent Political Entity"
+  },
+  {
+    "code": "PCLIX",
+    "class": "A",
+    "name": "Section Of Independent Political Entity"
+  },
+  {
+    "code": "PCLS",
+    "class": "A",
+    "name": "Semi-Independent Political Entity"
+  },
+  {
+    "code": "PRSH",
+    "class": "A",
+    "name": "Parish"
+  },
+  {
+    "code": "TERR",
+    "class": "A",
+    "name": "Territory"
+  },
+  {
+    "code": "ZN",
+    "class": "A",
+    "name": "Zone"
+  },
+  {
+    "code": "ZNB",
+    "class": "A",
+    "name": "Buffer Zone"
+  },
+  {
+    "code": "AIRS",
+    "class": "H",
+    "name": "Seaplane Landing Area"
+  },
+  {
+    "code": "ANCH",
+    "class": "H",
+    "name": "Anchorage"
+  },
+  {
+    "code": "BAY",
+    "class": "H",
+    "name": "Bay"
+  },
+  {
+    "code": "BAYS",
+    "class": "H",
+    "name": "Bays"
+  },
+  {
+    "code": "BGHT",
+    "class": "H",
+    "name": "Bight(s)"
+  },
+  {
+    "code": "BNK",
+    "class": "H",
+    "name": "Bank(s)"
+  },
+  {
+    "code": "BNKR",
+    "class": "H",
+    "name": "Stream Bank"
+  },
+  {
+    "code": "BNKX",
+    "class": "H",
+    "name": "Section Of Bank"
+  },
+  {
+    "code": "BOG",
+    "class": "H",
+    "name": "Bog(s)"
+  },
+  {
+    "code": "CAPG",
+    "class": "H",
+    "name": "Icecap"
+  },
+  {
+    "code": "CHN",
+    "class": "H",
+    "name": "Channel"
+  },
+  {
+    "code": "CHNL",
+    "class": "H",
+    "name": "Lake Channel(s)"
+  },
+  {
+    "code": "CHNM",
+    "class": "H",
+    "name": "Marine Channel"
+  },
+  {
+    "code": "CHNN",
+    "class": "H",
+    "name": "Navigation Channel"
+  },
+  {
+    "code": "CNFL",
+    "class": "H",
+    "name": "Confluence"
+  },
+  {
+    "code": "CNL",
+    "class": "H",
+    "name": "Canal"
+  },
+  {
+    "code": "CNLA",
+    "class": "H",
+    "name": "Aqueduct"
+  },
+  {
+    "code": "CNLB",
+    "class": "H",
+    "name": "Canal Bend"
+  },
+  {
+    "code": "CNLD",
+    "class": "H",
+    "name": "Drainage Canal"
+  },
+  {
+    "code": "CNLI",
+    "class": "H",
+    "name": "Irrigation Canal"
+  },
+  {
+    "code": "CNLN",
+    "class": "H",
+    "name": "Navigation Canal(s)"
+  },
+  {
+    "code": "CNLQ",
+    "class": "H",
+    "name": "Abandoned Canal"
+  },
+  {
+    "code": "CNLSB",
+    "class": "H",
+    "name": "Underground Irrigation Canal(s)"
+  },
+  {
+    "code": "CNLX",
+    "class": "H",
+    "name": "Section Of Canal"
+  },
+  {
+    "code": "COVE",
+    "class": "H",
+    "name": "Cove(s)"
+  },
+  {
+    "code": "CRKT",
+    "class": "H",
+    "name": "Tidal Creek(s)"
+  },
+  {
+    "code": "CRNT",
+    "class": "H",
+    "name": "Current"
+  },
+  {
+    "code": "CUTF",
+    "class": "H",
+    "name": "Cutoff"
+  },
+  {
+    "code": "DCK",
+    "class": "H",
+    "name": "Dock(s)"
+  },
+  {
+    "code": "DCKB",
+    "class": "H",
+    "name": "Docking Basin"
+  },
+  {
+    "code": "DOMG",
+    "class": "H",
+    "name": "Icecap Dome"
+  },
+  {
+    "code": "DPRG",
+    "class": "H",
+    "name": "Icecap Depression"
+  },
+  {
+    "code": "DTCH",
+    "class": "H",
+    "name": "Ditch"
+  },
+  {
+    "code": "DTCHD",
+    "class": "H",
+    "name": "Drainage Ditch"
+  },
+  {
+    "code": "DTCHI",
+    "class": "H",
+    "name": "Irrigation Ditch"
+  },
+  {
+    "code": "DTCHM",
+    "class": "H",
+    "name": "Ditch Mouth(s)"
+  },
+  {
+    "code": "ESTY",
+    "class": "H",
+    "name": "Estuary"
+  },
+  {
+    "code": "FISH",
+    "class": "H",
+    "name": "Fishing Area"
+  },
+  {
+    "code": "FJD",
+    "class": "H",
+    "name": "Fjord"
+  },
+  {
+    "code": "FJDS",
+    "class": "H",
+    "name": "Fjords"
+  },
+  {
+    "code": "FLLS",
+    "class": "H",
+    "name": "Waterfall(s)"
+  },
+  {
+    "code": "FLLSX",
+    "class": "H",
+    "name": "Section Of Waterfall(s)"
+  },
+  {
+    "code": "FLTM",
+    "class": "H",
+    "name": "Mud Flat(s)"
+  },
+  {
+    "code": "FLTT",
+    "class": "H",
+    "name": "Tidal Flat(s)"
+  },
+  {
+    "code": "GLCR",
+    "class": "H",
+    "name": "Glacier(s)"
+  },
+  {
+    "code": "GULF",
+    "class": "H",
+    "name": "Gulf"
+  },
+  {
+    "code": "GYSR",
+    "class": "H",
+    "name": "Geyser"
+  },
+  {
+    "code": "HBR",
+    "class": "H",
+    "name": "Harbor(s)"
+  },
+  {
+    "code": "HBRX",
+    "class": "H",
+    "name": "Section Of Harbor"
+  },
+  {
+    "code": "INLT",
+    "class": "H",
+    "name": "Inlet"
+  },
+  {
+    "code": "INLTQ",
+    "class": "H",
+    "name": "Former Inlet"
+  },
+  {
+    "code": "LBED",
+    "class": "H",
+    "name": "Lake Bed(s)"
+  },
+  {
+    "code": "LGN",
+    "class": "H",
+    "name": "Lagoon"
+  },
+  {
+    "code": "LGNS",
+    "class": "H",
+    "name": "Lagoons"
+  },
+  {
+    "code": "LGNX",
+    "class": "H",
+    "name": "Section Of Lagoon"
+  },
+  {
+    "code": "LK",
+    "class": "H",
+    "name": "Lake"
+  },
+  {
+    "code": "LKC",
+    "class": "H",
+    "name": "Crater Lake"
+  },
+  {
+    "code": "LKI",
+    "class": "H",
+    "name": "Intermittent Lake"
+  },
+  {
+    "code": "LKN",
+    "class": "H",
+    "name": "Salt Lake"
+  },
+  {
+    "code": "LKNI",
+    "class": "H",
+    "name": "Intermittent Salt Lake"
+  },
+  {
+    "code": "LKO",
+    "class": "H",
+    "name": "Oxbow Lake"
+  },
+  {
+    "code": "LKOI",
+    "class": "H",
+    "name": "Intermittent Oxbow Lake"
+  },
+  {
+    "code": "LKS",
+    "class": "H",
+    "name": "Lakes"
+  },
+  {
+    "code": "LKSB",
+    "class": "H",
+    "name": "Underground Lake"
+  },
+  {
+    "code": "LKSC",
+    "class": "H",
+    "name": "Crater Lakes"
+  },
+  {
+    "code": "LKSI",
+    "class": "H",
+    "name": "Intermittent Lakes"
+  },
+  {
+    "code": "LKSN",
+    "class": "H",
+    "name": "Salt Lakes"
+  },
+  {
+    "code": "LKSNI",
+    "class": "H",
+    "name": "Intermittent Salt Lakes"
+  },
+  {
+    "code": "LKX",
+    "class": "H",
+    "name": "Section Of Lake"
+  },
+  {
+    "code": "MFGN",
+    "class": "H",
+    "name": "Salt Evaporation Ponds"
+  },
+  {
+    "code": "MGV",
+    "class": "H",
+    "name": "Mangrove Swamp"
+  },
+  {
+    "code": "MOOR",
+    "class": "H",
+    "name": "Moor(s)"
+  },
+  {
+    "code": "MRSH",
+    "class": "H",
+    "name": "Marsh(Es)"
+  },
+  {
+    "code": "MRSHN",
+    "class": "H",
+    "name": "Salt Marsh"
+  },
+  {
+    "code": "NRWS",
+    "class": "H",
+    "name": "Narrows"
+  },
+  {
+    "code": "OCN",
+    "class": "H",
+    "name": "Ocean"
+  },
+  {
+    "code": "OVF",
+    "class": "H",
+    "name": "Overfalls"
+  },
+  {
+    "code": "PND",
+    "class": "H",
+    "name": "Pond"
+  },
+  {
+    "code": "PNDI",
+    "class": "H",
+    "name": "Intermittent Pond"
+  },
+  {
+    "code": "PNDN",
+    "class": "H",
+    "name": "Salt Pond"
+  },
+  {
+    "code": "PNDNI",
+    "class": "H",
+    "name": "Intermittent Salt Pond(s)"
+  },
+  {
+    "code": "PNDS",
+    "class": "H",
+    "name": "Ponds"
+  },
+  {
+    "code": "PNDSF",
+    "class": "H",
+    "name": "Fishponds"
+  },
+  {
+    "code": "PNDSI",
+    "class": "H",
+    "name": "Intermittent Ponds"
+  },
+  {
+    "code": "PNDSN",
+    "class": "H",
+    "name": "Salt Ponds"
+  },
+  {
+    "code": "POOL",
+    "class": "H",
+    "name": "Pool(s)"
+  },
+  {
+    "code": "POOLI",
+    "class": "H",
+    "name": "Intermittent Pool"
+  },
+  {
+    "code": "RCH",
+    "class": "H",
+    "name": "Reach"
+  },
+  {
+    "code": "RDGG",
+    "class": "H",
+    "name": "Icecap Ridge"
+  },
+  {
+    "code": "RDST",
+    "class": "H",
+    "name": "Roadstead"
+  },
+  {
+    "code": "RF",
+    "class": "H",
+    "name": "Reef(s)"
+  },
+  {
+    "code": "RFC",
+    "class": "H",
+    "name": "Coral Reef(s)"
+  },
+  {
+    "code": "RFX",
+    "class": "H",
+    "name": "Section Of Reef"
+  },
+  {
+    "code": "RPDS",
+    "class": "H",
+    "name": "Rapids"
+  },
+  {
+    "code": "RSV",
+    "class": "H",
+    "name": "Reservoir(s)"
+  },
+  {
+    "code": "RSVI",
+    "class": "H",
+    "name": "Intermittent Reservoir"
+  },
+  {
+    "code": "RSVT",
+    "class": "H",
+    "name": "Water Tank"
+  },
+  {
+    "code": "RVN",
+    "class": "H",
+    "name": "Ravine(s)"
+  },
+  {
+    "code": "SBKH",
+    "class": "H",
+    "name": "Sabkha(s)"
+  },
+  {
+    "code": "SD",
+    "class": "H",
+    "name": "Sound"
+  },
+  {
+    "code": "SEA",
+    "class": "H",
+    "name": "Sea"
+  },
+  {
+    "code": "SHOL",
+    "class": "H",
+    "name": "Shoal(s)"
+  },
+  {
+    "code": "SILL",
+    "class": "H",
+    "name": "Sill"
+  },
+  {
+    "code": "SPNG",
+    "class": "H",
+    "name": "Spring(s)"
+  },
+  {
+    "code": "SPNS",
+    "class": "H",
+    "name": "Sulphur Spring(s)"
+  },
+  {
+    "code": "SPNT",
+    "class": "H",
+    "name": "Hot Spring(s)"
+  },
+  {
+    "code": "STM",
+    "class": "H",
+    "name": "Stream"
+  },
+  {
+    "code": "STMA",
+    "class": "H",
+    "name": "Anabranch"
+  },
+  {
+    "code": "STMB",
+    "class": "H",
+    "name": "Stream Bend"
+  },
+  {
+    "code": "STMC",
+    "class": "H",
+    "name": "Canalized Stream"
+  },
+  {
+    "code": "STMD",
+    "class": "H",
+    "name": "Distributary(-Ies)"
+  },
+  {
+    "code": "STMH",
+    "class": "H",
+    "name": "Headwaters"
+  },
+  {
+    "code": "STMI",
+    "class": "H",
+    "name": "Intermittent Stream"
+  },
+  {
+    "code": "STMIX",
+    "class": "H",
+    "name": "Section Of Intermittent Stream"
+  },
+  {
+    "code": "STMM",
+    "class": "H",
+    "name": "Stream Mouth(s)"
+  },
+  {
+    "code": "STMQ",
+    "class": "H",
+    "name": "Abandoned Watercourse"
+  },
+  {
+    "code": "STMS",
+    "class": "H",
+    "name": "Streams"
+  },
+  {
+    "code": "STMSB",
+    "class": "H",
+    "name": "Lost River"
+  },
+  {
+    "code": "STMX",
+    "class": "H",
+    "name": "Section Of Stream"
+  },
+  {
+    "code": "STRT",
+    "class": "H",
+    "name": "Strait"
+  },
+  {
+    "code": "SWMP",
+    "class": "H",
+    "name": "Swamp"
+  },
+  {
+    "code": "SYSI",
+    "class": "H",
+    "name": "Irrigation System"
+  },
+  {
+    "code": "TNLC",
+    "class": "H",
+    "name": "Canal Tunnel"
+  },
+  {
+    "code": "WAD",
+    "class": "H",
+    "name": "Wadi"
+  },
+  {
+    "code": "WADB",
+    "class": "H",
+    "name": "Wadi Bend"
+  },
+  {
+    "code": "WADJ",
+    "class": "H",
+    "name": "Wadi Junction"
+  },
+  {
+    "code": "WADM",
+    "class": "H",
+    "name": "Wadi Mouth"
+  },
+  {
+    "code": "WADS",
+    "class": "H",
+    "name": "Wadies"
+  },
+  {
+    "code": "WADX",
+    "class": "H",
+    "name": "Section Of Wadi"
+  },
+  {
+    "code": "WHRL",
+    "class": "H",
+    "name": "Whirlpool"
+  },
+  {
+    "code": "WLL",
+    "class": "H",
+    "name": "Well"
+  },
+  {
+    "code": "WLLQ",
+    "class": "H",
+    "name": "Abandoned Well"
+  },
+  {
+    "code": "WLLS",
+    "class": "H",
+    "name": "Wells"
+  },
+  {
+    "code": "WTLD",
+    "class": "H",
+    "name": "Wetland"
+  },
+  {
+    "code": "WTLDI",
+    "class": "H",
+    "name": "Intermittent Wetland"
+  },
+  {
+    "code": "WTRC",
+    "class": "H",
+    "name": "Watercourse"
+  },
+  {
+    "code": "WTRH",
+    "class": "H",
+    "name": "Waterhole(s)"
+  },
+  {
+    "code": "AGRC",
+    "class": "L",
+    "name": "Agricultural Colony"
+  },
+  {
+    "code": "AMUS",
+    "class": "L",
+    "name": "Amusement Park"
+  },
+  {
+    "code": "AREA",
+    "class": "L",
+    "name": "Area"
+  },
+  {
+    "code": "BSND",
+    "class": "L",
+    "name": "Drainage Basin"
+  },
+  {
+    "code": "BSNP",
+    "class": "L",
+    "name": "Petroleum Basin"
+  },
+  {
+    "code": "BTL",
+    "class": "L",
+    "name": "Battlefield"
+  },
+  {
+    "code": "CLG",
+    "class": "L",
+    "name": "Clearing"
+  },
+  {
+    "code": "CMN",
+    "class": "L",
+    "name": "Common"
+  },
+  {
+    "code": "CNS",
+    "class": "L",
+    "name": "Concession Area"
+  },
+  {
+    "code": "COLF",
+    "class": "L",
+    "name": "Coalfield"
+  },
+  {
+    "code": "CONT",
+    "class": "L",
+    "name": "Continent"
+  },
+  {
+    "code": "CST",
+    "class": "L",
+    "name": "Coast"
+  },
+  {
+    "code": "CTRB",
+    "class": "L",
+    "name": "Business Center"
+  },
+  {
+    "code": "DEVH",
+    "class": "L",
+    "name": "Housing Development"
+  },
+  {
+    "code": "FLD",
+    "class": "L",
+    "name": "Field(s)"
+  },
+  {
+    "code": "FLDI",
+    "class": "L",
+    "name": "Irrigated Field(s)"
+  },
+  {
+    "code": "GASF",
+    "class": "L",
+    "name": "Gasfield"
+  },
+  {
+    "code": "GRAZ",
+    "class": "L",
+    "name": "Grazing Area"
+  },
+  {
+    "code": "GVL",
+    "class": "L",
+    "name": "Gravel Area"
+  },
+  {
+    "code": "INDS",
+    "class": "L",
+    "name": "Industrial Area"
+  },
+  {
+    "code": "LAND",
+    "class": "L",
+    "name": "Arctic Land"
+  },
+  {
+    "code": "LCTY",
+    "class": "L",
+    "name": "Locality"
+  },
+  {
+    "code": "MILB",
+    "class": "L",
+    "name": "Military Base"
+  },
+  {
+    "code": "MNA",
+    "class": "L",
+    "name": "Mining Area"
+  },
+  {
+    "code": "MVA",
+    "class": "L",
+    "name": "Maneuver Area"
+  },
+  {
+    "code": "NVB",
+    "class": "L",
+    "name": "Naval Base"
+  },
+  {
+    "code": "OAS",
+    "class": "L",
+    "name": "Oasis(-Es)"
+  },
+  {
+    "code": "OILF",
+    "class": "L",
+    "name": "Oilfield"
+  },
+  {
+    "code": "PEAT",
+    "class": "L",
+    "name": "Peat Cutting Area"
+  },
+  {
+    "code": "PRK",
+    "class": "L",
+    "name": "Park"
+  },
+  {
+    "code": "PRT",
+    "class": "L",
+    "name": "Port"
+  },
+  {
+    "code": "QCKS",
+    "class": "L",
+    "name": "Quicksand"
+  },
+  {
+    "code": "RES",
+    "class": "L",
+    "name": "Reserve"
+  },
+  {
+    "code": "RESA",
+    "class": "L",
+    "name": "Agricultural Reserve"
+  },
+  {
+    "code": "RESF",
+    "class": "L",
+    "name": "Forest Reserve"
+  },
+  {
+    "code": "RESH",
+    "class": "L",
+    "name": "Hunting Reserve"
+  },
+  {
+    "code": "RESN",
+    "class": "L",
+    "name": "Nature Reserve"
+  },
+  {
+    "code": "RESP",
+    "class": "L",
+    "name": "Palm Tree Reserve"
+  },
+  {
+    "code": "RESV",
+    "class": "L",
+    "name": "Reservation"
+  },
+  {
+    "code": "RESW",
+    "class": "L",
+    "name": "Wildlife Reserve"
+  },
+  {
+    "code": "RGN",
+    "class": "L",
+    "name": "Region"
+  },
+  {
+    "code": "RGNE",
+    "class": "L",
+    "name": "Economic Region"
+  },
+  {
+    "code": "RGNH",
+    "class": "L",
+    "name": "Historical Region"
+  },
+  {
+    "code": "RGNL",
+    "class": "L",
+    "name": "Lake Region"
+  },
+  {
+    "code": "RNGA",
+    "class": "L",
+    "name": "Artillery Range"
+  },
+  {
+    "code": "SALT",
+    "class": "L",
+    "name": "Salt Area"
+  },
+  {
+    "code": "SNOW",
+    "class": "L",
+    "name": "Snowfield"
+  },
+  {
+    "code": "TRB",
+    "class": "L",
+    "name": "Tribal Area"
+  },
+  {
+    "code": "PPL",
+    "class": "P",
+    "name": "Populated Place"
+  },
+  {
+    "code": "PPLA",
+    "class": "P",
+    "name": "Seat Of A First-Order Administrative Division"
+  },
+  {
+    "code": "PPLA2",
+    "class": "P",
+    "name": "Seat Of A Second-Order Administrative Division"
+  },
+  {
+    "code": "PPLA3",
+    "class": "P",
+    "name": "Seat Of A Third-Order Administrative Division"
+  },
+  {
+    "code": "PPLA4",
+    "class": "P",
+    "name": "Seat Of A Fourth-Order Administrative Division"
+  },
+  {
+    "code": "PPLA5",
+    "class": "P",
+    "name": "Seat Of A Fifth-Order Administrative Division"
+  },
+  {
+    "code": "PPLC",
+    "class": "P",
+    "name": "Capital Of A Political Entity"
+  },
+  {
+    "code": "PPLCH",
+    "class": "P",
+    "name": "Historical Capital Of A Political Entity"
+  },
+  {
+    "code": "PPLF",
+    "class": "P",
+    "name": "Farm Village"
+  },
+  {
+    "code": "PPLG",
+    "class": "P",
+    "name": "Seat Of Government Of A Political Entity"
+  },
+  {
+    "code": "PPLH",
+    "class": "P",
+    "name": "Historical Populated Place"
+  },
+  {
+    "code": "PPLL",
+    "class": "P",
+    "name": "Populated Locality"
+  },
+  {
+    "code": "PPLQ",
+    "class": "P",
+    "name": "Abandoned Populated Place"
+  },
+  {
+    "code": "PPLR",
+    "class": "P",
+    "name": "Religious Populated Place"
+  },
+  {
+    "code": "PPLS",
+    "class": "P",
+    "name": "Populated Places"
+  },
+  {
+    "code": "PPLW",
+    "class": "P",
+    "name": "Destroyed Populated Place"
+  },
+  {
+    "code": "PPLX",
+    "class": "P",
+    "name": "Section Of Populated Place"
+  },
+  {
+    "code": "STLMT",
+    "class": "P",
+    "name": "Israeli Settlement"
+  },
+  {
+    "code": "CSWY",
+    "class": "R",
+    "name": "Causeway"
+  },
+  {
+    "code": "OILP",
+    "class": "R",
+    "name": "Oil Pipeline"
+  },
+  {
+    "code": "PRMN",
+    "class": "R",
+    "name": "Promenade"
+  },
+  {
+    "code": "PTGE",
+    "class": "R",
+    "name": "Portage"
+  },
+  {
+    "code": "RD",
+    "class": "R",
+    "name": "Road"
+  },
+  {
+    "code": "RDA",
+    "class": "R",
+    "name": "Ancient Road"
+  },
+  {
+    "code": "RDB",
+    "class": "R",
+    "name": "Road Bend"
+  },
+  {
+    "code": "RDCUT",
+    "class": "R",
+    "name": "Road Cut"
+  },
+  {
+    "code": "RDJCT",
+    "class": "R",
+    "name": "Road Junction"
+  },
+  {
+    "code": "RJCT",
+    "class": "R",
+    "name": "Railroad Junction"
+  },
+  {
+    "code": "RR",
+    "class": "R",
+    "name": "Railroad"
+  },
+  {
+    "code": "RRQ",
+    "class": "R",
+    "name": "Abandoned Railroad"
+  },
+  {
+    "code": "RTE",
+    "class": "R",
+    "name": "Caravan Route"
+  },
+  {
+    "code": "RYD",
+    "class": "R",
+    "name": "Railroad Yard"
+  },
+  {
+    "code": "ST",
+    "class": "R",
+    "name": "Street"
+  },
+  {
+    "code": "STKR",
+    "class": "R",
+    "name": "Stock Route"
+  },
+  {
+    "code": "TNL",
+    "class": "R",
+    "name": "Tunnel"
+  },
+  {
+    "code": "TNLN",
+    "class": "R",
+    "name": "Natural Tunnel"
+  },
+  {
+    "code": "TNLRD",
+    "class": "R",
+    "name": "Road Tunnel"
+  },
+  {
+    "code": "TNLRR",
+    "class": "R",
+    "name": "Railroad Tunnel"
+  },
+  {
+    "code": "TNLS",
+    "class": "R",
+    "name": "Tunnels"
+  },
+  {
+    "code": "TRL",
+    "class": "R",
+    "name": "Trail"
+  },
+  {
+    "code": "ADMF",
+    "class": "S",
+    "name": "Administrative Facility"
+  },
+  {
+    "code": "AGRF",
+    "class": "S",
+    "name": "Agricultural Facility"
+  },
+  {
+    "code": "AIRB",
+    "class": "S",
+    "name": "Airbase"
+  },
+  {
+    "code": "AIRF",
+    "class": "S",
+    "name": "Airfield"
+  },
+  {
+    "code": "AIRH",
+    "class": "S",
+    "name": "Heliport"
+  },
+  {
+    "code": "AIRP",
+    "class": "S",
+    "name": "Airport"
+  },
+  {
+    "code": "AIRQ",
+    "class": "S",
+    "name": "Abandoned Airfield"
+  },
+  {
+    "code": "AIRT",
+    "class": "S",
+    "name": "Terminal"
+  },
+  {
+    "code": "AMTH",
+    "class": "S",
+    "name": "Amphitheater"
+  },
+  {
+    "code": "ANS",
+    "class": "S",
+    "name": "Archaeological/Prehistoric Site"
+  },
+  {
+    "code": "AQC",
+    "class": "S",
+    "name": "Aquaculture Facility"
+  },
+  {
+    "code": "ARCH",
+    "class": "S",
+    "name": "Arch"
+  },
+  {
+    "code": "ARCHV",
+    "class": "S",
+    "name": "Archive"
+  },
+  {
+    "code": "ART",
+    "class": "S",
+    "name": "Piece Of Art"
+  },
+  {
+    "code": "ASTR",
+    "class": "S",
+    "name": "Astronomical Station"
+  },
+  {
+    "code": "ASYL",
+    "class": "S",
+    "name": "Asylum"
+  },
+  {
+    "code": "ATHF",
+    "class": "S",
+    "name": "Athletic Field"
+  },
+  {
+    "code": "ATM",
+    "class": "S",
+    "name": "Automatic Teller Machine"
+  },
+  {
+    "code": "BANK",
+    "class": "S",
+    "name": "Bank"
+  },
+  {
+    "code": "BCN",
+    "class": "S",
+    "name": "Beacon"
+  },
+  {
+    "code": "BDG",
+    "class": "S",
+    "name": "Bridge"
+  },
+  {
+    "code": "BDGQ",
+    "class": "S",
+    "name": "Ruined Bridge"
+  },
+  {
+    "code": "BLDA",
+    "class": "S",
+    "name": "Apartment Building"
+  },
+  {
+    "code": "BLDG",
+    "class": "S",
+    "name": "Building(s)"
+  },
+  {
+    "code": "BLDO",
+    "class": "S",
+    "name": "Office Building"
+  },
+  {
+    "code": "BP",
+    "class": "S",
+    "name": "Boundary Marker"
+  },
+  {
+    "code": "BRKS",
+    "class": "S",
+    "name": "Barracks"
+  },
+  {
+    "code": "BRKW",
+    "class": "S",
+    "name": "Breakwater"
+  },
+  {
+    "code": "BSTN",
+    "class": "S",
+    "name": "Baling Station"
+  },
+  {
+    "code": "BTYD",
+    "class": "S",
+    "name": "Boatyard"
+  },
+  {
+    "code": "BUR",
+    "class": "S",
+    "name": "Burial Cave(s)"
+  },
+  {
+    "code": "BUSTN",
+    "class": "S",
+    "name": "Bus Station"
+  },
+  {
+    "code": "BUSTP",
+    "class": "S",
+    "name": "Bus Stop"
+  },
+  {
+    "code": "CARN",
+    "class": "S",
+    "name": "Cairn"
+  },
+  {
+    "code": "CAVE",
+    "class": "S",
+    "name": "Cave(s)"
+  },
+  {
+    "code": "CH",
+    "class": "S",
+    "name": "Church"
+  },
+  {
+    "code": "CMP",
+    "class": "S",
+    "name": "Camp(s)"
+  },
+  {
+    "code": "CMPL",
+    "class": "S",
+    "name": "Logging Camp"
+  },
+  {
+    "code": "CMPLA",
+    "class": "S",
+    "name": "Labor Camp"
+  },
+  {
+    "code": "CMPMN",
+    "class": "S",
+    "name": "Mining Camp"
+  },
+  {
+    "code": "CMPO",
+    "class": "S",
+    "name": "Oil Camp"
+  },
+  {
+    "code": "CMPQ",
+    "class": "S",
+    "name": "Abandoned Camp"
+  },
+  {
+    "code": "CMPRF",
+    "class": "S",
+    "name": "Refugee Camp"
+  },
+  {
+    "code": "CMTY",
+    "class": "S",
+    "name": "Cemetery"
+  },
+  {
+    "code": "COMC",
+    "class": "S",
+    "name": "Communication Center"
+  },
+  {
+    "code": "CRRL",
+    "class": "S",
+    "name": "Corral(s)"
+  },
+  {
+    "code": "CSNO",
+    "class": "S",
+    "name": "Casino"
+  },
+  {
+    "code": "CSTL",
+    "class": "S",
+    "name": "Castle"
+  },
+  {
+    "code": "CSTM",
+    "class": "S",
+    "name": "Customs House"
+  },
+  {
+    "code": "CTHSE",
+    "class": "S",
+    "name": "Courthouse"
+  },
+  {
+    "code": "CTRA",
+    "class": "S",
+    "name": "Atomic Center"
+  },
+  {
+    "code": "CTRCM",
+    "class": "S",
+    "name": "Community Center"
+  },
+  {
+    "code": "CTRF",
+    "class": "S",
+    "name": "Facility Center"
+  },
+  {
+    "code": "CTRM",
+    "class": "S",
+    "name": "Medical Center"
+  },
+  {
+    "code": "CTRR",
+    "class": "S",
+    "name": "Religious Center"
+  },
+  {
+    "code": "CTRS",
+    "class": "S",
+    "name": "Space Center"
+  },
+  {
+    "code": "CVNT",
+    "class": "S",
+    "name": "Convent"
+  },
+  {
+    "code": "DAM",
+    "class": "S",
+    "name": "Dam"
+  },
+  {
+    "code": "DAMQ",
+    "class": "S",
+    "name": "Ruined Dam"
+  },
+  {
+    "code": "DAMSB",
+    "class": "S",
+    "name": "Sub-Surface Dam"
+  },
+  {
+    "code": "DARY",
+    "class": "S",
+    "name": "Dairy"
+  },
+  {
+    "code": "DCKD",
+    "class": "S",
+    "name": "Dry Dock"
+  },
+  {
+    "code": "DCKY",
+    "class": "S",
+    "name": "Dockyard"
+  },
+  {
+    "code": "DIKE",
+    "class": "S",
+    "name": "Dike"
+  },
+  {
+    "code": "DIP",
+    "class": "S",
+    "name": "Diplomatic Facility"
+  },
+  {
+    "code": "DPOF",
+    "class": "S",
+    "name": "Fuel Depot"
+  },
+  {
+    "code": "EST",
+    "class": "S",
+    "name": "Estate(s)"
+  },
+  {
+    "code": "ESTO",
+    "class": "S",
+    "name": "Oil Palm Plantation"
+  },
+  {
+    "code": "ESTR",
+    "class": "S",
+    "name": "Rubber Plantation"
+  },
+  {
+    "code": "ESTSG",
+    "class": "S",
+    "name": "Sugar Plantation"
+  },
+  {
+    "code": "ESTT",
+    "class": "S",
+    "name": "Tea Plantation"
+  },
+  {
+    "code": "ESTX",
+    "class": "S",
+    "name": "Section Of Estate"
+  },
+  {
+    "code": "FCL",
+    "class": "S",
+    "name": "Facility"
+  },
+  {
+    "code": "FNDY",
+    "class": "S",
+    "name": "Foundry"
+  },
+  {
+    "code": "FRM",
+    "class": "S",
+    "name": "Farm"
+  },
+  {
+    "code": "FRMQ",
+    "class": "S",
+    "name": "Abandoned Farm"
+  },
+  {
+    "code": "FRMS",
+    "class": "S",
+    "name": "Farms"
+  },
+  {
+    "code": "FRMT",
+    "class": "S",
+    "name": "Farmstead"
+  },
+  {
+    "code": "FT",
+    "class": "S",
+    "name": "Fort"
+  },
+  {
+    "code": "FY",
+    "class": "S",
+    "name": "Ferry"
+  },
+  {
+    "code": "FYT",
+    "class": "S",
+    "name": "Ferry Terminal"
+  },
+  {
+    "code": "GATE",
+    "class": "S",
+    "name": "Gate"
+  },
+  {
+    "code": "GDN",
+    "class": "S",
+    "name": "Garden(s)"
+  },
+  {
+    "code": "GHAT",
+    "class": "S",
+    "name": "Ghat"
+  },
+  {
+    "code": "GHSE",
+    "class": "S",
+    "name": "Guest House"
+  },
+  {
+    "code": "GOSP",
+    "class": "S",
+    "name": "Gas-Oil Separator Plant"
+  },
+  {
+    "code": "GOVL",
+    "class": "S",
+    "name": "Local Government Office"
+  },
+  {
+    "code": "GRVE",
+    "class": "S",
+    "name": "Grave"
+  },
+  {
+    "code": "HERM",
+    "class": "S",
+    "name": "Hermitage"
+  },
+  {
+    "code": "HLT",
+    "class": "S",
+    "name": "Halting Place"
+  },
+  {
+    "code": "HMSD",
+    "class": "S",
+    "name": "Homestead"
+  },
+  {
+    "code": "HSE",
+    "class": "S",
+    "name": "House(s)"
+  },
+  {
+    "code": "HSEC",
+    "class": "S",
+    "name": "Country House"
+  },
+  {
+    "code": "HSP",
+    "class": "S",
+    "name": "Hospital"
+  },
+  {
+    "code": "HSPC",
+    "class": "S",
+    "name": "Clinic"
+  },
+  {
+    "code": "HSPD",
+    "class": "S",
+    "name": "Dispensary"
+  },
+  {
+    "code": "HSPL",
+    "class": "S",
+    "name": "Leprosarium"
+  },
+  {
+    "code": "HSTS",
+    "class": "S",
+    "name": "Historical Site"
+  },
+  {
+    "code": "HTL",
+    "class": "S",
+    "name": "Hotel"
+  },
+  {
+    "code": "HUT",
+    "class": "S",
+    "name": "Hut"
+  },
+  {
+    "code": "HUTS",
+    "class": "S",
+    "name": "Huts"
+  },
+  {
+    "code": "INSM",
+    "class": "S",
+    "name": "Military Installation"
+  },
+  {
+    "code": "ITTR",
+    "class": "S",
+    "name": "Research Institute"
+  },
+  {
+    "code": "JTY",
+    "class": "S",
+    "name": "Jetty"
+  },
+  {
+    "code": "LDNG",
+    "class": "S",
+    "name": "Landing"
+  },
+  {
+    "code": "LEPC",
+    "class": "S",
+    "name": "Leper Colony"
+  },
+  {
+    "code": "LIBR",
+    "class": "S",
+    "name": "Library"
+  },
+  {
+    "code": "LNDF",
+    "class": "S",
+    "name": "Landfill"
+  },
+  {
+    "code": "LOCK",
+    "class": "S",
+    "name": "Lock(s)"
+  },
+  {
+    "code": "LTHSE",
+    "class": "S",
+    "name": "Lighthouse"
+  },
+  {
+    "code": "MALL",
+    "class": "S",
+    "name": "Mall"
+  },
+  {
+    "code": "MAR",
+    "class": "S",
+    "name": "Marina"
+  },
+  {
+    "code": "MFG",
+    "class": "S",
+    "name": "Factory"
+  },
+  {
+    "code": "MFGB",
+    "class": "S",
+    "name": "Brewery"
+  },
+  {
+    "code": "MFGC",
+    "class": "S",
+    "name": "Cannery"
+  },
+  {
+    "code": "MFGCU",
+    "class": "S",
+    "name": "Copper Works"
+  },
+  {
+    "code": "MFGLM",
+    "class": "S",
+    "name": "Limekiln"
+  },
+  {
+    "code": "MFGM",
+    "class": "S",
+    "name": "Munitions Plant"
+  },
+  {
+    "code": "MFGPH",
+    "class": "S",
+    "name": "Phosphate Works"
+  },
+  {
+    "code": "MFGQ",
+    "class": "S",
+    "name": "Abandoned Factory"
+  },
+  {
+    "code": "MFGSG",
+    "class": "S",
+    "name": "Sugar Refinery"
+  },
+  {
+    "code": "MKT",
+    "class": "S",
+    "name": "Market"
+  },
+  {
+    "code": "ML",
+    "class": "S",
+    "name": "Mill(s)"
+  },
+  {
+    "code": "MLM",
+    "class": "S",
+    "name": "Ore Treatment Plant"
+  },
+  {
+    "code": "MLO",
+    "class": "S",
+    "name": "Olive Oil Mill"
+  },
+  {
+    "code": "MLSG",
+    "class": "S",
+    "name": "Sugar Mill"
+  },
+  {
+    "code": "MLSGQ",
+    "class": "S",
+    "name": "Former Sugar Mill"
+  },
+  {
+    "code": "MLSW",
+    "class": "S",
+    "name": "Sawmill"
+  },
+  {
+    "code": "MLWND",
+    "class": "S",
+    "name": "Windmill"
+  },
+  {
+    "code": "MLWTR",
+    "class": "S",
+    "name": "Water Mill"
+  },
+  {
+    "code": "MN",
+    "class": "S",
+    "name": "Mine(s)"
+  },
+  {
+    "code": "MNAU",
+    "class": "S",
+    "name": "Gold Mine(s)"
+  },
+  {
+    "code": "MNC",
+    "class": "S",
+    "name": "Coal Mine(s)"
+  },
+  {
+    "code": "MNCR",
+    "class": "S",
+    "name": "Chrome Mine(s)"
+  },
+  {
+    "code": "MNCU",
+    "class": "S",
+    "name": "Copper Mine(s)"
+  },
+  {
+    "code": "MNFE",
+    "class": "S",
+    "name": "Iron Mine(s)"
+  },
+  {
+    "code": "MNMT",
+    "class": "S",
+    "name": "Monument"
+  },
+  {
+    "code": "MNN",
+    "class": "S",
+    "name": "Salt Mine(s)"
+  },
+  {
+    "code": "MNQ",
+    "class": "S",
+    "name": "Abandoned Mine"
+  },
+  {
+    "code": "MNQR",
+    "class": "S",
+    "name": "Quarry(-Ies)"
+  },
+  {
+    "code": "MOLE",
+    "class": "S",
+    "name": "Mole"
+  },
+  {
+    "code": "MSQE",
+    "class": "S",
+    "name": "Mosque"
+  },
+  {
+    "code": "MSSN",
+    "class": "S",
+    "name": "Mission"
+  },
+  {
+    "code": "MSSNQ",
+    "class": "S",
+    "name": "Abandoned Mission"
+  },
+  {
+    "code": "MSTY",
+    "class": "S",
+    "name": "Monastery"
+  },
+  {
+    "code": "MTRO",
+    "class": "S",
+    "name": "Metro Station"
+  },
+  {
+    "code": "MUS",
+    "class": "S",
+    "name": "Museum"
+  },
+  {
+    "code": "NOV",
+    "class": "S",
+    "name": "Novitiate"
+  },
+  {
+    "code": "NSY",
+    "class": "S",
+    "name": "Nursery(-Ies)"
+  },
+  {
+    "code": "OBPT",
+    "class": "S",
+    "name": "Observation Point"
+  },
+  {
+    "code": "OBS",
+    "class": "S",
+    "name": "Observatory"
+  },
+  {
+    "code": "OBSR",
+    "class": "S",
+    "name": "Radio Observatory"
+  },
+  {
+    "code": "OILJ",
+    "class": "S",
+    "name": "Oil Pipeline Junction"
+  },
+  {
+    "code": "OILQ",
+    "class": "S",
+    "name": "Abandoned Oil Well"
+  },
+  {
+    "code": "OILR",
+    "class": "S",
+    "name": "Oil Refinery"
+  },
+  {
+    "code": "OILT",
+    "class": "S",
+    "name": "Tank Farm"
+  },
+  {
+    "code": "OILW",
+    "class": "S",
+    "name": "Oil Well"
+  },
+  {
+    "code": "OPRA",
+    "class": "S",
+    "name": "Opera House"
+  },
+  {
+    "code": "PAL",
+    "class": "S",
+    "name": "Palace"
+  },
+  {
+    "code": "PGDA",
+    "class": "S",
+    "name": "Pagoda"
+  },
+  {
+    "code": "PIER",
+    "class": "S",
+    "name": "Pier"
+  },
+  {
+    "code": "PKLT",
+    "class": "S",
+    "name": "Parking Lot"
+  },
+  {
+    "code": "PMPO",
+    "class": "S",
+    "name": "Oil Pumping Station"
+  },
+  {
+    "code": "PMPW",
+    "class": "S",
+    "name": "Water Pumping Station"
+  },
+  {
+    "code": "PO",
+    "class": "S",
+    "name": "Post Office"
+  },
+  {
+    "code": "PP",
+    "class": "S",
+    "name": "Police Post"
+  },
+  {
+    "code": "PPQ",
+    "class": "S",
+    "name": "Abandoned Police Post"
+  },
+  {
+    "code": "PRKGT",
+    "class": "S",
+    "name": "Park Gate"
+  },
+  {
+    "code": "PRKHQ",
+    "class": "S",
+    "name": "Park Headquarters"
+  },
+  {
+    "code": "PRN",
+    "class": "S",
+    "name": "Prison"
+  },
+  {
+    "code": "PRNJ",
+    "class": "S",
+    "name": "Reformatory"
+  },
+  {
+    "code": "PRNQ",
+    "class": "S",
+    "name": "Abandoned Prison"
+  },
+  {
+    "code": "PS",
+    "class": "S",
+    "name": "Power Station"
+  },
+  {
+    "code": "PSH",
+    "class": "S",
+    "name": "Hydroelectric Power Station"
+  },
+  {
+    "code": "PSN",
+    "class": "S",
+    "name": "Nuclear Power Station"
+  },
+  {
+    "code": "PSTB",
+    "class": "S",
+    "name": "Border Post"
+  },
+  {
+    "code": "PSTC",
+    "class": "S",
+    "name": "Customs Post"
+  },
+  {
+    "code": "PSTP",
+    "class": "S",
+    "name": "Patrol Post"
+  },
+  {
+    "code": "PYR",
+    "class": "S",
+    "name": "Pyramid"
+  },
+  {
+    "code": "PYRS",
+    "class": "S",
+    "name": "Pyramids"
+  },
+  {
+    "code": "QUAY",
+    "class": "S",
+    "name": "Quay"
+  },
+  {
+    "code": "RDCR",
+    "class": "S",
+    "name": "Traffic Circle"
+  },
+  {
+    "code": "RDIN",
+    "class": "S",
+    "name": "Intersection"
+  },
+  {
+    "code": "RECG",
+    "class": "S",
+    "name": "Golf Course"
+  },
+  {
+    "code": "RECR",
+    "class": "S",
+    "name": "Racetrack"
+  },
+  {
+    "code": "REST",
+    "class": "S",
+    "name": "Restaurant"
+  },
+  {
+    "code": "RET",
+    "class": "S",
+    "name": "Store"
+  },
+  {
+    "code": "RHSE",
+    "class": "S",
+    "name": "Resthouse"
+  },
+  {
+    "code": "RKRY",
+    "class": "S",
+    "name": "Rookery"
+  },
+  {
+    "code": "RLG",
+    "class": "S",
+    "name": "Religious Site"
+  },
+  {
+    "code": "RLGR",
+    "class": "S",
+    "name": "Retreat"
+  },
+  {
+    "code": "RNCH",
+    "class": "S",
+    "name": "Ranch(Es)"
+  },
+  {
+    "code": "RSD",
+    "class": "S",
+    "name": "Railroad Siding"
+  },
+  {
+    "code": "RSGNL",
+    "class": "S",
+    "name": "Railroad Signal"
+  },
+  {
+    "code": "RSRT",
+    "class": "S",
+    "name": "Resort"
+  },
+  {
+    "code": "RSTN",
+    "class": "S",
+    "name": "Railroad Station"
+  },
+  {
+    "code": "RSTNQ",
+    "class": "S",
+    "name": "Abandoned Railroad Station"
+  },
+  {
+    "code": "RSTP",
+    "class": "S",
+    "name": "Railroad Stop"
+  },
+  {
+    "code": "RSTPQ",
+    "class": "S",
+    "name": "Abandoned Railroad Stop"
+  },
+  {
+    "code": "RUIN",
+    "class": "S",
+    "name": "Ruin(s)"
+  },
+  {
+    "code": "SCH",
+    "class": "S",
+    "name": "School"
+  },
+  {
+    "code": "SCHA",
+    "class": "S",
+    "name": "Agricultural School"
+  },
+  {
+    "code": "SCHC",
+    "class": "S",
+    "name": "College"
+  },
+  {
+    "code": "SCHL",
+    "class": "S",
+    "name": "Language School"
+  },
+  {
+    "code": "SCHM",
+    "class": "S",
+    "name": "Military School"
+  },
+  {
+    "code": "SCHN",
+    "class": "S",
+    "name": "Maritime School"
+  },
+  {
+    "code": "SCHT",
+    "class": "S",
+    "name": "Technical School"
+  },
+  {
+    "code": "SECP",
+    "class": "S",
+    "name": "State Exam Prep Centre"
+  },
+  {
+    "code": "SHPF",
+    "class": "S",
+    "name": "Sheepfold"
+  },
+  {
+    "code": "SHRN",
+    "class": "S",
+    "name": "Shrine"
+  },
+  {
+    "code": "SHSE",
+    "class": "S",
+    "name": "Storehouse"
+  },
+  {
+    "code": "SLCE",
+    "class": "S",
+    "name": "Sluice"
+  },
+  {
+    "code": "SNTR",
+    "class": "S",
+    "name": "Sanatorium"
+  },
+  {
+    "code": "SPA",
+    "class": "S",
+    "name": "Spa"
+  },
+  {
+    "code": "SPLY",
+    "class": "S",
+    "name": "Spillway"
+  },
+  {
+    "code": "SQR",
+    "class": "S",
+    "name": "Square"
+  },
+  {
+    "code": "STBL",
+    "class": "S",
+    "name": "Stable"
+  },
+  {
+    "code": "STDM",
+    "class": "S",
+    "name": "Stadium"
+  },
+  {
+    "code": "STNB",
+    "class": "S",
+    "name": "Scientific Research Base"
+  },
+  {
+    "code": "STNC",
+    "class": "S",
+    "name": "Coast Guard Station"
+  },
+  {
+    "code": "STNE",
+    "class": "S",
+    "name": "Experiment Station"
+  },
+  {
+    "code": "STNF",
+    "class": "S",
+    "name": "Forest Station"
+  },
+  {
+    "code": "STNI",
+    "class": "S",
+    "name": "Inspection Station"
+  },
+  {
+    "code": "STNM",
+    "class": "S",
+    "name": "Meteorological Station"
+  },
+  {
+    "code": "STNR",
+    "class": "S",
+    "name": "Radio Station"
+  },
+  {
+    "code": "STNS",
+    "class": "S",
+    "name": "Satellite Station"
+  },
+  {
+    "code": "STNW",
+    "class": "S",
+    "name": "Whaling Station"
+  },
+  {
+    "code": "STPS",
+    "class": "S",
+    "name": "Steps"
+  },
+  {
+    "code": "SWT",
+    "class": "S",
+    "name": "Sewage Treatment Plant"
+  },
+  {
+    "code": "SYG",
+    "class": "S",
+    "name": "Synagogue"
+  },
+  {
+    "code": "THTR",
+    "class": "S",
+    "name": "Theater"
+  },
+  {
+    "code": "TMB",
+    "class": "S",
+    "name": "Tomb(s)"
+  },
+  {
+    "code": "TMPL",
+    "class": "S",
+    "name": "Temple(s)"
+  },
+  {
+    "code": "TNKD",
+    "class": "S",
+    "name": "Cattle Dipping Tank"
+  },
+  {
+    "code": "TOLL",
+    "class": "S",
+    "name": "Toll Gate/Barrier"
+  },
+  {
+    "code": "TOWR",
+    "class": "S",
+    "name": "Tower"
+  },
+  {
+    "code": "TRAM",
+    "class": "S",
+    "name": "Tram"
+  },
+  {
+    "code": "TRANT",
+    "class": "S",
+    "name": "Transit Terminal"
+  },
+  {
+    "code": "TRIG",
+    "class": "S",
+    "name": "Triangulation Station"
+  },
+  {
+    "code": "TRMO",
+    "class": "S",
+    "name": "Oil Pipeline Terminal"
+  },
+  {
+    "code": "TWO",
+    "class": "S",
+    "name": "Temp Work Office"
+  },
+  {
+    "code": "UNIP",
+    "class": "S",
+    "name": "University Prep School"
+  },
+  {
+    "code": "UNIV",
+    "class": "S",
+    "name": "University"
+  },
+  {
+    "code": "USGE",
+    "class": "S",
+    "name": "United States Government Establishment"
+  },
+  {
+    "code": "VETF",
+    "class": "S",
+    "name": "Veterinary Facility"
+  },
+  {
+    "code": "WALL",
+    "class": "S",
+    "name": "Wall"
+  },
+  {
+    "code": "WALLA",
+    "class": "S",
+    "name": "Ancient Wall"
+  },
+  {
+    "code": "WEIR",
+    "class": "S",
+    "name": "Weir(s)"
+  },
+  {
+    "code": "WHRF",
+    "class": "S",
+    "name": "Wharf(-Ves)"
+  },
+  {
+    "code": "WRCK",
+    "class": "S",
+    "name": "Wreck"
+  },
+  {
+    "code": "WTRW",
+    "class": "S",
+    "name": "Waterworks"
+  },
+  {
+    "code": "ZNF",
+    "class": "S",
+    "name": "Free Trade Zone"
+  },
+  {
+    "code": "ZOO",
+    "class": "S",
+    "name": "Zoo"
+  },
+  {
+    "code": "ASPH",
+    "class": "T",
+    "name": "Asphalt Lake"
+  },
+  {
+    "code": "ATOL",
+    "class": "T",
+    "name": "Atoll(s)"
+  },
+  {
+    "code": "BAR",
+    "class": "T",
+    "name": "Bar"
+  },
+  {
+    "code": "BCH",
+    "class": "T",
+    "name": "Beach"
+  },
+  {
+    "code": "BCHS",
+    "class": "T",
+    "name": "Beaches"
+  },
+  {
+    "code": "BDLD",
+    "class": "T",
+    "name": "Badlands"
+  },
+  {
+    "code": "BLDR",
+    "class": "T",
+    "name": "Boulder Field"
+  },
+  {
+    "code": "BLHL",
+    "class": "T",
+    "name": "Blowhole(s)"
+  },
+  {
+    "code": "BLOW",
+    "class": "T",
+    "name": "Blowout(s)"
+  },
+  {
+    "code": "BNCH",
+    "class": "T",
+    "name": "Bench"
+  },
+  {
+    "code": "BUTE",
+    "class": "T",
+    "name": "Butte(s)"
+  },
+  {
+    "code": "CAPE",
+    "class": "T",
+    "name": "Cape"
+  },
+  {
+    "code": "CFT",
+    "class": "T",
+    "name": "Cleft(s)"
+  },
+  {
+    "code": "CLDA",
+    "class": "T",
+    "name": "Caldera"
+  },
+  {
+    "code": "CLF",
+    "class": "T",
+    "name": "Cliff(s)"
+  },
+  {
+    "code": "CNYN",
+    "class": "T",
+    "name": "Canyon"
+  },
+  {
+    "code": "CONE",
+    "class": "T",
+    "name": "Cone(s)"
+  },
+  {
+    "code": "CRDR",
+    "class": "T",
+    "name": "Corridor"
+  },
+  {
+    "code": "CRQ",
+    "class": "T",
+    "name": "Cirque"
+  },
+  {
+    "code": "CRQS",
+    "class": "T",
+    "name": "Cirques"
+  },
+  {
+    "code": "CRTR",
+    "class": "T",
+    "name": "Crater(s)"
+  },
+  {
+    "code": "CUET",
+    "class": "T",
+    "name": "Cuesta(s)"
+  },
+  {
+    "code": "DLTA",
+    "class": "T",
+    "name": "Delta"
+  },
+  {
+    "code": "DPR",
+    "class": "T",
+    "name": "Depression(s)"
+  },
+  {
+    "code": "DSRT",
+    "class": "T",
+    "name": "Desert"
+  },
+  {
+    "code": "DUNE",
+    "class": "T",
+    "name": "Dune(s)"
+  },
+  {
+    "code": "DVD",
+    "class": "T",
+    "name": "Divide"
+  },
+  {
+    "code": "ERG",
+    "class": "T",
+    "name": "Sandy Desert"
+  },
+  {
+    "code": "FAN",
+    "class": "T",
+    "name": "Fan(s)"
+  },
+  {
+    "code": "FORD",
+    "class": "T",
+    "name": "Ford"
+  },
+  {
+    "code": "FSR",
+    "class": "T",
+    "name": "Fissure"
+  },
+  {
+    "code": "GAP",
+    "class": "T",
+    "name": "Gap"
+  },
+  {
+    "code": "GRGE",
+    "class": "T",
+    "name": "Gorge(s)"
+  },
+  {
+    "code": "HDLD",
+    "class": "T",
+    "name": "Headland"
+  },
+  {
+    "code": "HLL",
+    "class": "T",
+    "name": "Hill"
+  },
+  {
+    "code": "HLLS",
+    "class": "T",
+    "name": "Hills"
+  },
+  {
+    "code": "HMCK",
+    "class": "T",
+    "name": "Hammock(s)"
+  },
+  {
+    "code": "HMDA",
+    "class": "T",
+    "name": "Rock Desert"
+  },
+  {
+    "code": "INTF",
+    "class": "T",
+    "name": "Interfluve"
+  },
+  {
+    "code": "ISL",
+    "class": "T",
+    "name": "Island"
+  },
+  {
+    "code": "ISLET",
+    "class": "T",
+    "name": "Islet"
+  },
+  {
+    "code": "ISLF",
+    "class": "T",
+    "name": "Artificial Island"
+  },
+  {
+    "code": "ISLM",
+    "class": "T",
+    "name": "Mangrove Island"
+  },
+  {
+    "code": "ISLS",
+    "class": "T",
+    "name": "Islands"
+  },
+  {
+    "code": "ISLT",
+    "class": "T",
+    "name": "Land-Tied Island"
+  },
+  {
+    "code": "ISLX",
+    "class": "T",
+    "name": "Section Of Island"
+  },
+  {
+    "code": "ISTH",
+    "class": "T",
+    "name": "Isthmus"
+  },
+  {
+    "code": "KRST",
+    "class": "T",
+    "name": "Karst Area"
+  },
+  {
+    "code": "LAVA",
+    "class": "T",
+    "name": "Lava Area"
+  },
+  {
+    "code": "LEV",
+    "class": "T",
+    "name": "Levee"
+  },
+  {
+    "code": "MESA",
+    "class": "T",
+    "name": "Mesa(s)"
+  },
+  {
+    "code": "MND",
+    "class": "T",
+    "name": "Mound(s)"
+  },
+  {
+    "code": "MRN",
+    "class": "T",
+    "name": "Moraine"
+  },
+  {
+    "code": "MT",
+    "class": "T",
+    "name": "Mountain"
+  },
+  {
+    "code": "MTS",
+    "class": "T",
+    "name": "Mountains"
+  },
+  {
+    "code": "NKM",
+    "class": "T",
+    "name": "Meander Neck"
+  },
+  {
+    "code": "NTK",
+    "class": "T",
+    "name": "Nunatak"
+  },
+  {
+    "code": "NTKS",
+    "class": "T",
+    "name": "Nunataks"
+  },
+  {
+    "code": "PAN",
+    "class": "T",
+    "name": "Pan"
+  },
+  {
+    "code": "PANS",
+    "class": "T",
+    "name": "Pans"
+  },
+  {
+    "code": "PASS",
+    "class": "T",
+    "name": "Pass"
+  },
+  {
+    "code": "PEN",
+    "class": "T",
+    "name": "Peninsula"
+  },
+  {
+    "code": "PENX",
+    "class": "T",
+    "name": "Section Of Peninsula"
+  },
+  {
+    "code": "PK",
+    "class": "T",
+    "name": "Peak"
+  },
+  {
+    "code": "PKS",
+    "class": "T",
+    "name": "Peaks"
+  },
+  {
+    "code": "PLAT",
+    "class": "T",
+    "name": "Plateau"
+  },
+  {
+    "code": "PLATX",
+    "class": "T",
+    "name": "Section Of Plateau"
+  },
+  {
+    "code": "PLDR",
+    "class": "T",
+    "name": "Polder"
+  },
+  {
+    "code": "PLN",
+    "class": "T",
+    "name": "Plain(s)"
+  },
+  {
+    "code": "PLNX",
+    "class": "T",
+    "name": "Section Of Plain"
+  },
+  {
+    "code": "PROM",
+    "class": "T",
+    "name": "Promontory(-Ies)"
+  },
+  {
+    "code": "PT",
+    "class": "T",
+    "name": "Point"
+  },
+  {
+    "code": "PTS",
+    "class": "T",
+    "name": "Points"
+  },
+  {
+    "code": "RDGB",
+    "class": "T",
+    "name": "Beach Ridge"
+  },
+  {
+    "code": "RDGE",
+    "class": "T",
+    "name": "Ridge(s)"
+  },
+  {
+    "code": "REG",
+    "class": "T",
+    "name": "Stony Desert"
+  },
+  {
+    "code": "RK",
+    "class": "T",
+    "name": "Rock"
+  },
+  {
+    "code": "RKFL",
+    "class": "T",
+    "name": "Rockfall"
+  },
+  {
+    "code": "RKS",
+    "class": "T",
+    "name": "Rocks"
+  },
+  {
+    "code": "SAND",
+    "class": "T",
+    "name": "Sand Area"
+  },
+  {
+    "code": "SBED",
+    "class": "T",
+    "name": "Dry Stream Bed"
+  },
+  {
+    "code": "SCRP",
+    "class": "T",
+    "name": "Escarpment"
+  },
+  {
+    "code": "SDL",
+    "class": "T",
+    "name": "Saddle"
+  },
+  {
+    "code": "SHOR",
+    "class": "T",
+    "name": "Shore"
+  },
+  {
+    "code": "SINK",
+    "class": "T",
+    "name": "Sinkhole"
+  },
+  {
+    "code": "SLID",
+    "class": "T",
+    "name": "Slide"
+  },
+  {
+    "code": "SLP",
+    "class": "T",
+    "name": "Slope(s)"
+  },
+  {
+    "code": "SPIT",
+    "class": "T",
+    "name": "Spit"
+  },
+  {
+    "code": "SPUR",
+    "class": "T",
+    "name": "Spur(s)"
+  },
+  {
+    "code": "TAL",
+    "class": "T",
+    "name": "Talus Slope"
+  },
+  {
+    "code": "TRGD",
+    "class": "T",
+    "name": "Interdune Trough(s)"
+  },
+  {
+    "code": "TRR",
+    "class": "T",
+    "name": "Terrace"
+  },
+  {
+    "code": "UPLD",
+    "class": "T",
+    "name": "Upland"
+  },
+  {
+    "code": "VAL",
+    "class": "T",
+    "name": "Valley"
+  },
+  {
+    "code": "VALG",
+    "class": "T",
+    "name": "Hanging Valley"
+  },
+  {
+    "code": "VALS",
+    "class": "T",
+    "name": "Valleys"
+  },
+  {
+    "code": "VALX",
+    "class": "T",
+    "name": "Section Of Valley"
+  },
+  {
+    "code": "VLC",
+    "class": "T",
+    "name": "Volcano"
+  },
+  {
+    "code": "APNU",
+    "class": "U",
+    "name": "Apron"
+  },
+  {
+    "code": "ARCU",
+    "class": "U",
+    "name": "Arch"
+  },
+  {
+    "code": "ARRU",
+    "class": "U",
+    "name": "Arrugado"
+  },
+  {
+    "code": "BDLU",
+    "class": "U",
+    "name": "Borderland"
+  },
+  {
+    "code": "BKSU",
+    "class": "U",
+    "name": "Banks"
+  },
+  {
+    "code": "BNKU",
+    "class": "U",
+    "name": "Bank"
+  },
+  {
+    "code": "BSNU",
+    "class": "U",
+    "name": "Basin"
+  },
+  {
+    "code": "CDAU",
+    "class": "U",
+    "name": "Cordillera"
+  },
+  {
+    "code": "CNSU",
+    "class": "U",
+    "name": "Canyons"
+  },
+  {
+    "code": "CNYU",
+    "class": "U",
+    "name": "Canyon"
+  },
+  {
+    "code": "CRSU",
+    "class": "U",
+    "name": "Continental Rise"
+  },
+  {
+    "code": "DEPU",
+    "class": "U",
+    "name": "Deep"
+  },
+  {
+    "code": "EDGU",
+    "class": "U",
+    "name": "Shelf Edge"
+  },
+  {
+    "code": "ESCU",
+    "class": "U",
+    "name": "Escarpment (Or Scarp)"
+  },
+  {
+    "code": "FANU",
+    "class": "U",
+    "name": "Fan"
+  },
+  {
+    "code": "FLTU",
+    "class": "U",
+    "name": "Flat"
+  },
+  {
+    "code": "FRZU",
+    "class": "U",
+    "name": "Fracture Zone"
+  },
+  {
+    "code": "FURU",
+    "class": "U",
+    "name": "Furrow"
+  },
+  {
+    "code": "GAPU",
+    "class": "U",
+    "name": "Gap"
+  },
+  {
+    "code": "GLYU",
+    "class": "U",
+    "name": "Gully"
+  },
+  {
+    "code": "HLLU",
+    "class": "U",
+    "name": "Hill"
+  },
+  {
+    "code": "HLSU",
+    "class": "U",
+    "name": "Hills"
+  },
+  {
+    "code": "HOLU",
+    "class": "U",
+    "name": "Hole"
+  },
+  {
+    "code": "KNLU",
+    "class": "U",
+    "name": "Knoll"
+  },
+  {
+    "code": "KNSU",
+    "class": "U",
+    "name": "Knolls"
+  },
+  {
+    "code": "LDGU",
+    "class": "U",
+    "name": "Ledge"
+  },
+  {
+    "code": "LEVU",
+    "class": "U",
+    "name": "Levee"
+  },
+  {
+    "code": "MESU",
+    "class": "U",
+    "name": "Mesa"
+  },
+  {
+    "code": "MNDU",
+    "class": "U",
+    "name": "Mound"
+  },
+  {
+    "code": "MOTU",
+    "class": "U",
+    "name": "Moat"
+  },
+  {
+    "code": "MTU",
+    "class": "U",
+    "name": "Mountain"
+  },
+  {
+    "code": "PKSU",
+    "class": "U",
+    "name": "Peaks"
+  },
+  {
+    "code": "PKU",
+    "class": "U",
+    "name": "Peak"
+  },
+  {
+    "code": "PLNU",
+    "class": "U",
+    "name": "Plain"
+  },
+  {
+    "code": "PLTU",
+    "class": "U",
+    "name": "Plateau"
+  },
+  {
+    "code": "PNLU",
+    "class": "U",
+    "name": "Pinnacle"
+  },
+  {
+    "code": "PRVU",
+    "class": "U",
+    "name": "Province"
+  },
+  {
+    "code": "RDGU",
+    "class": "U",
+    "name": "Ridge"
+  },
+  {
+    "code": "RDSU",
+    "class": "U",
+    "name": "Ridges"
+  },
+  {
+    "code": "RFSU",
+    "class": "U",
+    "name": "Reefs"
+  },
+  {
+    "code": "RFU",
+    "class": "U",
+    "name": "Reef"
+  },
+  {
+    "code": "RISU",
+    "class": "U",
+    "name": "Rise"
+  },
+  {
+    "code": "SCNU",
+    "class": "U",
+    "name": "Seachannel"
+  },
+  {
+    "code": "SCSU",
+    "class": "U",
+    "name": "Seachannels"
+  },
+  {
+    "code": "SDLU",
+    "class": "U",
+    "name": "Saddle"
+  },
+  {
+    "code": "SHFU",
+    "class": "U",
+    "name": "Shelf"
+  },
+  {
+    "code": "SHLU",
+    "class": "U",
+    "name": "Shoal"
+  },
+  {
+    "code": "SHSU",
+    "class": "U",
+    "name": "Shoals"
+  },
+  {
+    "code": "SHVU",
+    "class": "U",
+    "name": "Shelf Valley"
+  },
+  {
+    "code": "SILU",
+    "class": "U",
+    "name": "Sill"
+  },
+  {
+    "code": "SLPU",
+    "class": "U",
+    "name": "Slope"
+  },
+  {
+    "code": "SMSU",
+    "class": "U",
+    "name": "Seamounts"
+  },
+  {
+    "code": "SMU",
+    "class": "U",
+    "name": "Seamount"
+  },
+  {
+    "code": "SPRU",
+    "class": "U",
+    "name": "Spur"
+  },
+  {
+    "code": "TERU",
+    "class": "U",
+    "name": "Terrace"
+  },
+  {
+    "code": "TMSU",
+    "class": "U",
+    "name": "Tablemounts (Or Guyots)"
+  },
+  {
+    "code": "TMTU",
+    "class": "U",
+    "name": "Tablemount (Or Guyot)"
+  },
+  {
+    "code": "TNGU",
+    "class": "U",
+    "name": "Tongue"
+  },
+  {
+    "code": "TRGU",
+    "class": "U",
+    "name": "Trough"
+  },
+  {
+    "code": "TRNU",
+    "class": "U",
+    "name": "Trench"
+  },
+  {
+    "code": "VALU",
+    "class": "U",
+    "name": "Valley"
+  },
+  {
+    "code": "VLSU",
+    "class": "U",
+    "name": "Valleys"
+  },
+  {
+    "code": "BUSH",
+    "class": "V",
+    "name": "Bush(Es)"
+  },
+  {
+    "code": "CULT",
+    "class": "V",
+    "name": "Cultivated Area"
+  },
+  {
+    "code": "FRST",
+    "class": "V",
+    "name": "Forest(s)"
+  },
+  {
+    "code": "FRSTF",
+    "class": "V",
+    "name": "Fossilized Forest"
+  },
+  {
+    "code": "GROVE",
+    "class": "V",
+    "name": "Grove"
+  },
+  {
+    "code": "GRSLD",
+    "class": "V",
+    "name": "Grassland"
+  },
+  {
+    "code": "GRVC",
+    "class": "V",
+    "name": "Coconut Grove"
+  },
+  {
+    "code": "GRVO",
+    "class": "V",
+    "name": "Olive Grove"
+  },
+  {
+    "code": "GRVP",
+    "class": "V",
+    "name": "Palm Grove"
+  },
+  {
+    "code": "GRVPN",
+    "class": "V",
+    "name": "Pine Grove"
+  },
+  {
+    "code": "HTH",
+    "class": "V",
+    "name": "Heath"
+  },
+  {
+    "code": "MDW",
+    "class": "V",
+    "name": "Meadow"
+  },
+  {
+    "code": "OCH",
+    "class": "V",
+    "name": "Orchard(s)"
+  },
+  {
+    "code": "SCRB",
+    "class": "V",
+    "name": "Scrubland"
+  },
+  {
+    "code": "TREE",
+    "class": "V",
+    "name": "Tree(s)"
+  },
+  {
+    "code": "TUND",
+    "class": "V",
+    "name": "Tundra"
+  },
+  {
+    "code": "VIN",
+    "class": "V",
+    "name": "Vineyard"
+  },
+  {
+    "code": "VINS",
+    "class": "V",
+    "name": "Vineyards"
+  },
+  {
+    "code": "ll",
+    "class": "V",
+    "name": "Not Available"
+  }
+]

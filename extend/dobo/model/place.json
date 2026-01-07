@@ -1,0 +1,21 @@
+{
+  "properties": [
+    "geonamesId,integer,,true,true",
+    "name,,255,fulltext,true",
+    "asciiName,,255,fulltext,true",
+    "fClass,,20,true",
+    "fCode,,20,true",
+    "lat,sumbaLat",
+    "lng,sumbaLng",
+    "admin1,,100,true",
+    "admin2,,100,true",
+    "admin3,,100,true",
+    "admin4,,100,true",
+    "country,,2,true",
+    "pop,integer,,true",
+    "elev,integer,,true",
+    "dem,integer,,true",
+    "tz,,50,true",
+    "modDate,date,true"
+  ]
+}

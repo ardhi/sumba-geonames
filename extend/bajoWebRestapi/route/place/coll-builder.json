@@ -1,4 +1,0 @@
-{
-  "coll": "GeonamesPlace",
-  "disabled": ["create", "update", "remove"]
-}
