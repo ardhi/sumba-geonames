@@ -13,9 +13,6 @@ async function factory (pkgName) {
    * @class
    */
   class SumbaGeonames extends this.app.baseClass.Base {
-    static alias = 'geonames'
-    static dependencies = ['dobo']
-
     constructor () {
       super(pkgName, me.app)
       this.config = {
